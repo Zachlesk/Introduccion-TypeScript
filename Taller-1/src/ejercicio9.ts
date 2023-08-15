@@ -31,7 +31,7 @@ function descripcion(numAtletas: number): Atleta[] {
 }
 
 
-function main() {
+function main9() {
   let numAtletas = parseInt(readlineSync.question('Ingrese el número de atletas finalistas: '));
 
   let atletas = descripcion(numAtletas);
@@ -62,4 +62,4 @@ function main() {
   }
 }
 
-main();
+main9();

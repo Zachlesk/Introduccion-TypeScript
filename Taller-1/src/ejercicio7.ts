@@ -20,7 +20,7 @@ function facturacion(): Producto {
 }
 
 
-function main() {
+function main7() {
   let nombreCliente = readlineSync.question('Ingrese el nombre del cliente: ');
   let cantidadProductos = parseInt(readlineSync.question('Ingrese la cantidad de productos: '));
 
@@ -40,7 +40,7 @@ function main() {
 
     let subtotal = producto.precio * cantidadComprada;
     totalFactura += subtotal;
-    
+
     console.log(`
     -------------------------------------------------";
    "El día de hoy, siendo el mes x, del año 2023";
@@ -56,4 +56,4 @@ function main() {
    "-------------------------------------------------"}`);
   };
 }
-main();
+main7();

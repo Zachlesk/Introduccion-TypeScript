@@ -3,7 +3,7 @@ notas de un alumno, si el promedio es menor o igual a 3.9
 mostrar un mensaje "Estudie“, de lo contrario un mensaje que
 diga "becado"  */
 
-import readlineSync from 'readline-sync';
+import * as readlineSync from 'readline-sync'
 
 function main1(){
     let nombre = readlineSync.question('¡Hola! Digita el nombre del alumno');

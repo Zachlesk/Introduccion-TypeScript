@@ -1,6 +1,6 @@
  /* Dado un número indicar si es par o impar y si es mayor de 10 */
 
-import readlineSync from 'readline-sync';
+import * as readlineSync from 'readline-sync'
 
 function main2() {
     let numero = parseFloat(readlineSync.question('Ingrese el número a valorar '));

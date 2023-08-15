@@ -7,12 +7,12 @@
 
 import * as readlineSync from 'readline-sync';
 
-function main() {
+function main10() {
   let valores: number[] = [];
   let suma = 0;
 
   while (true) {
-    let valor = parseFloat(readlineSync.question('Ingrese un valor numerico (ingrese 0 para parar el programa): '));
+    let valor = parseFloat(readlineSync.question('Ingrese un valor numerico: '));
 
     if (valor === 0) {
       break;
@@ -30,6 +30,7 @@ function main() {
   valores.sort((a, b) => a - b);
 
   console.log('Valores ingresados en orden ascendente:');
+
   for (let valor of valores) {
     console.log(valor);
   }
@@ -41,4 +42,4 @@ function main() {
   console.log(`Menor : ${menorValor}`);
 }
 
-main();
+main10();

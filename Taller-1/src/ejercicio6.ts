@@ -15,12 +15,12 @@ interface Estudiante {
   function informacion(cantidadEstudiantes: number): Estudiante[] {
     let estudiantes: Estudiante[] = [];
     for (let i = 0; i < cantidadEstudiantes; i++) {
-    let nombreEstudiante = readlineSync.question(`Ingrese el nombre del estudiante: ${i + 1}`);
+    let nombreEstudiante = readlineSync.question(`Ingrese el nombre del estudiante ${i + 1}:`);
     let sexoEstudiante = readlineSync.question('Ingrese el sexo del estudiante (M o F): ');
     let notaEstudiante = parseFloat(readlineSync.question('Ingrese la nota definitiva del estudiante: '));
   
     sexoEstudiante.toUpperCase;
-    
+
     let estudiante: Estudiante = {
         nombre: nombreEstudiante,
         sexo: sexoEstudiante,

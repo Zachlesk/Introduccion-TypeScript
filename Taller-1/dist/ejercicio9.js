@@ -44,7 +44,7 @@ function descripcion(numAtletas) {
     }
     return atletas;
 }
-function main() {
+function main9() {
     let numAtletas = parseInt(readlineSync.question('Ingrese el número de atletas finalistas: '));
     let atletas = descripcion(numAtletas);
     atletas.sort((a, b) => b.marca - a.marca);
@@ -66,4 +66,4 @@ function main() {
         console.log(`${i + 1}. ${atletas[i].nombre} - ${atletas[i].marca} metros`);
     }
 }
-main();
+main9();

@@ -35,7 +35,7 @@ function facturacion() {
         precio: precioProducto
     };
 }
-function main() {
+function main7() {
     let nombreCliente = readlineSync.question('Ingrese el nombre del cliente: ');
     let cantidadProductos = parseInt(readlineSync.question('Ingrese la cantidad de productos: '));
     let productos = [];
@@ -66,4 +66,4 @@ function main() {
     }
     ;
 }
-main();
+main7();
